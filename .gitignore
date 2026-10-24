@@ -1,0 +1,39 @@
+# === Jupyter Notebooks ===
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# === Python / Anaconda ===
+__pycache__/
+*.py[cod]
+*$py.class
+.conda/
+.vcs/
+
+# === Virtual Environments ===
+venv/
+.venv/
+env/
+ENV/
+statistical_analysis/
+.env
+
+
+
+# === IDEs and System Files ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# === Python Packaging ===
+build/
+dist/
+*.egg-info/
+
+# === Testing & Coverage ===
+.pytest_cache/
+
+# PyTorch model files
+*.pt
+*.pth
+*.ckpt
